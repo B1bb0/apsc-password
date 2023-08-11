@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    margin-left: 6px;
+    padding: 6px;
+}
+
+body {
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    max-width: 400px;
+    width: 90%;
+    background-color: #f0f8ff;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px 6px #4b4b4b;
+}
+
+form {
+    margin: 30px 0;
+}
+
+.password-visibility {
+    left: 6px;
+    right: 6px;
+    top: 50%;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+input [type="password"] {
+    padding-right: 30px;
+}
+
+input {
+    padding: 6px;
+}
+
+.acesso img {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    box-shadow: 0 0 20px 6px #4b4b4b;
+    border-radius: 6px;
+}
